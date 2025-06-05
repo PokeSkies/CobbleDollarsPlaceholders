@@ -11,12 +11,12 @@ A Fabric server-sided mod that adds a balance placeholder for the CobbleDollars 
 ## Installation
 1. Download the latest version of the mod from [Modrinth](https://modrinth.com/mod/cobbledollarsplaceholders).
 2. Download all required dependencies:
-- [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
-- [CobbleDollars](https://modrinth.com/mod/cobbledollars)
+    - [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
+    - [CobbleDollars](https://modrinth.com/mod/cobbledollars)
 3. Download one of the supported placeholder mod:
-- [MiniPlaceholders](https://modrinth.com/plugin/miniplaceholders)
-- [PlaceholderAPI](https://modrinth.com/mod/placeholder-api)
-- [Impactor](https://modrinth.com/mod/impactor)
+    - [MiniPlaceholders](https://modrinth.com/plugin/miniplaceholders)
+    - [PlaceholderAPI](https://modrinth.com/mod/placeholder-api)
+    - [Impactor](https://modrinth.com/mod/impactor)
 4. Install the mod and dependencies into your server's `mods` folder.
 
 ## Donations
