@@ -27,6 +27,8 @@ class CobbleDollarsPlaceholders : ModInitializer {
 
         ServerLifecycleEvents.SERVER_STARTING.register(ServerLifecycleEvents.ServerStarting { server: MinecraftServer ->
             this.server = server
+        })
+        ServerLifecycleEvents.SERVER_STARTED.register(ServerLifecycleEvents.ServerStarted { server: MinecraftServer ->
             placeholderManager.registerPlaceholders()
         })
     }

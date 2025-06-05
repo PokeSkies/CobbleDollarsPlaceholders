@@ -21,7 +21,7 @@ class ImpactorPlaceholderService : IPlaceholderService {
         service.register(
             Key.key("cobbledollars", "balance")
         ) { viewer, ctx ->
-            val player: PlatformSource = ctx.require(PlatformSource::class.java)
+            val player: PlatformSource = ctx.request(PlatformSource::class.java).orElse(viewer)
 
             return@register Component.text(
                 CobbleDollarsPlaceholders.INSTANCE.server.playerList.getPlayer(player.uuid())?.getCobbleDollars().toString(),
