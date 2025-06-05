@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "cobbledollarsplaceholders",
+  "version": "${version}",
+  "name": "CobbleDollarsPlaceholders",
+  "description": "CobbledDollars Placeholder Integration",
+  "authors": [
+    "AmoAster",
+    "Stampede"
+  ],
+  "entrypoints": {
+    "main": [
+      "com.pokeskies.cobbledollarsplaceholders.CobbleDollarsPlaceholders"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.1"
+  }
+}
